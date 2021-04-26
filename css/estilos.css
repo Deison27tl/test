@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #8fdbe9 ; 
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   .box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+   }
+   .box h1{
+    color: white;
+
+   }
+  
+   .box input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+   }
+   .box input:focus{
+    width: 280px;
+    border-color: #2ecc71;
+   }
+   #btn-mostrar
+   {
+    border: 0;
+    background: none;
+   
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+   }
+   #btn-mostrar:hover{
+   
+    background: #2ecc71;
+  
+}
+hr {
+  border: 0; 
+  margin: 0;
+  height: 12px; 
+  box-shadow: inset 0 15px 15px -15px rgb(255, 0, 0);
+}
+
+
+.navbar{
+    background:rgb(57, 54, 240);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px #000000;
+    
+    
+  }
+  h2{
+ color: #ff5304;
+ 
+  }
+ 
+.conten > img{
+padding-left: 25px;
+
+}
+.conten > span {
+color: #ff5304;
+padding-left: 20px;
+
+}
+
+#modulo-barra{
+    display: none;
+}
+
+  
+#modulo-test{
+    display: none;
+}
+
+.button {
+  border: 0;
+  background: none;
+  position: relative;
+  padding-left: 20px;
+  cursor: pointer;
+ font-size: 17px;
+  transform: translate(500px,300px);
+ 
+}
+
+.button a {
+  text-decoration: none;
+  color: #ff5304;
+}
+#modulo_formulario {
+  
+  width:50%;
+  padding-bottom: 60px;
+  margin-top: 70px;
+  margin-left: 350px;
+  background-color: #50f787;
+  border:2px solid #1c29e4;
+  border-radius:5px;
+  color: #0a20e9;
+  font-family: monospace;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#prev {
+  display:none;
+}
+
+#start {
+  display:none;
+  width: 90px;
+}
